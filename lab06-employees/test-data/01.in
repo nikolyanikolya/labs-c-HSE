@@ -1,0 +1,6 @@
+load test-data/01.data
+save all test-data/01.all.out
+save developers test-data/01.devs.out
+save managers test-data/01.managers.out
+save leads test-data/01.leads.out
+list-devs

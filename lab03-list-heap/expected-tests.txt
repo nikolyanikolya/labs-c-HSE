@@ -1,0 +1,17 @@
+push, top, pop
+merge empty with empty
+merge empty with non-empty
+merge non-empty and empty
+merge non-empty and non-empty
+top() returns const reference even for non-const heap
+modifying operations return nothing
+with std::greater
+constructor from comparator is explicit
+default constructor is implicit
+non-DefaultConstructible and non-CopyAssignable comparator
+compiles with no operator< and lambda
+single heap
+merging heaps
+[no-valgrind] lots of empty+push+top
+[no-valgrind] lots of merge
+in correct namespace

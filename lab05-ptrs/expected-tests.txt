@@ -1,0 +1,38 @@
+lab_05::shared::shared_ptr<int> default constructor
+shared_ptr nullptr
+shared_ptr new-delete
+shared_ptr constructor is explicit
+shared_ptr non-empty getters
+shared_ptr copy constructor
+shared_ptr copy assignment over empty
+shared_ptr copy assignment over non-empty
+shared_ptr copy self-assignment of empty
+shared_ptr copy self-assignment of non-empty
+shared_ptr move constructor
+shared_ptr move assignment over empty
+shared_ptr move assignment over non-empty
+shared_ptr move self-assignment of empty
+shared_ptr move self-assignment of non-empty
+shared_ptr swap
+shared_ptr operator== and operator!=
+lab_05::unique::unique_ptr<int> default constructor
+unique_ptr nullptr
+unique_ptr new-delete
+unique_ptr constructor is explicit
+unique_ptr new[]-delete[]
+unique_ptr custom copyable deleter
+unique_ptr custom move-only deleter
+unique_ptr non-copyable
+unique_ptr non-array getters
+unique_ptr array getters
+unique_ptr move constructor
+unique_ptr move assignment over empty
+unique_ptr move assignment over non-empty
+unique_ptr move self-assignment of empty
+unique_ptr move self-assignment of non-empty
+unique_ptr reset from empty
+unique_ptr reset from non-empty
+unique_ptr release from empty
+unique_ptr release from non-empty
+unique_ptr swap
+unique_ptr operator== and operator!=

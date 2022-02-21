@@ -1,0 +1,6 @@
+list-devs
+load test-data/02.data
+list-devs
+load test-data/02.data
+list-devs
+save all test-data/02.all.out

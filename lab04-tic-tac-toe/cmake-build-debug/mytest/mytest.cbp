@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mytest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\mytest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/libmytest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest/fast">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/libmytest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest-main">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/libmytest-main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest-main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest-main/fast">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/libmytest-main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest-main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest-demo">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/mytest-demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest-demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mytest-demo/fast">
+				<Option output="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/mytest-demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 mytest-demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/cmake-build-debug/mytest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/demo/demo1.cpp">
+			<Option target="mytest-demo"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/demo/demo2.cpp">
+			<Option target="mytest-demo"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/demo/demo3.cpp">
+			<Option target="mytest-demo"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/src/mytest.cpp">
+			<Option target="mytest"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/src/mytest_main.cpp">
+			<Option target="mytest-main"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/oem/Desktop/random_folder/labs-nikolyanikolya/lab04-tic-tac-toe/mytest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mytest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

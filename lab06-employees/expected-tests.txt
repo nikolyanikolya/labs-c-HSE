@@ -1,0 +1,7 @@
+read_from empty
+Developer
+Manager
+LeadDeveloper
+Employee is abstract
+No default constructors
+No copies or moves
